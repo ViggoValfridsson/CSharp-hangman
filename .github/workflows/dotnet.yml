@@ -1,6 +1,6 @@
 name: .NET
 env:
-    APINinjas:ApiKey: ${{ secrets.APININJAS_APIKEY }}
+    apiKey: ${{ secrets.APININJAS_APIKEY }}
 on:
   push:
     branches: [ "main" ]
