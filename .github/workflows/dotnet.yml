@@ -22,4 +22,6 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
+      env:
+        APINinjas:ApiKey: ${{ secrets.APININJAS_APIKEY }}
       run: dotnet test --no-build --verbosity normal
