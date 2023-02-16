@@ -6,7 +6,7 @@ public class HandleInput
     {
         while (true)
         {
-            WriteLine("Enter your guess: ");
+            Write("Enter your guess: ");
             string result = ReadLine()!;
             
             try
