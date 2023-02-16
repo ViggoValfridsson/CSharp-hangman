@@ -50,25 +50,25 @@ public class PrintInfo
         switch(guesses)
         {
             case 0:
-                WriteLine("\n\n\n\n\n");
+                WriteLine("\n\n\n\n\n=========");
                 break;
             case 1:
                 WriteLine("\r\n  +---+\r\n  |   |\r\n      |\r\n      |\r\n      |\r\n      |\r\n=========");
                 break;
             case 2:
-                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n      |\r\n      |\r\n      |");
+                WriteLine("\r\n  +---+\r\n  |   |\r\n  O   |\r\n      |\r\n      |\r\n      |\r\n=========");
                 break;
             case 3:
-                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n  |   |\r\n      |\r\n      |");
+                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n  |   |\r\n      |\r\n      |\r\n=========");
                 break;
             case 4:
-                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|   |\r\n      |\r\n      |");
+                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n  |   |\r\n      |\r\n      |\r\n=========");
                 break;
             case 5:
-                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|\\  |\r\n      |\r\n      |");
+                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n  |   |\r\n      |\r\n      |\r\n=========");
                 break;
             case 6:
-                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|\\  |\r\n /    |\r\n      |");
+                WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n  |   |\r\n      |\r\n      |\r\n=========");
                 break;
         }
         WriteLine();
@@ -84,7 +84,7 @@ public class PrintInfo
     public static void ShowLossMessage(string secretWord)
     {
         Clear();
-        WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|\\  |\r\n / \\  |\r\n      |");
+        WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|\\  |\r\n / \\  |\r\n      |\r\n=========");
         WriteLine("\r\n\r\n  _______      ___      .___  ___.  _______      ______   ____    ____  _______ .______       __  \r\n /  _____|    /   \\     |   \\/   | |   ____|    /  __  \\  \\   \\  /   / |   ____||   _  \\     |  | \r\n|  |  __     /  ^  \\    |  \\  /  | |  |__      |  |  |  |  \\   \\/   /  |  |__   |  |_)  |    |  | \r\n|  | |_ |   /  /_\\  \\   |  |\\/|  | |   __|     |  |  |  |   \\      /   |   __|  |      /     |  | \r\n|  |__| |  /  _____  \\  |  |  |  | |  |____    |  `--'  |    \\    /    |  |____ |  |\\  \\----.|__| \r\n \\______| /__/     \\__\\ |__|  |__| |_______|    \\______/      \\__/     |_______|| _| `._____|(__) \r\n                                                                                                  \r\n\r\n");
         WriteLine($"\n The correct word was {secretWord}");
     }

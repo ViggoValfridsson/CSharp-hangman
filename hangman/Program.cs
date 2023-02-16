@@ -8,7 +8,8 @@ var incorrectLetters = new List<char>();
 
 while (true)
 {
-    WriteLine(secretWord); //for debugging remove later
+    WriteLine(secretWord);
+    WriteLine();
     PrintInfo.ShowLives(incorrectLetters.Count);
     PrintInfo.ShowPartialHidden(secretWord, correctLetters);
     PrintInfo.ShowIncorrectGuesses(incorrectLetters);
