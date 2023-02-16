@@ -26,3 +26,4 @@ jobs:
       env:
         APINinjas:ApiKey: ${{ secrets.APININJAS_APIKEY }}
       run: dotnet test --no-build --verbosity normal
+      working-directory: dotnet
