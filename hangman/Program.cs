@@ -39,3 +39,6 @@ while (true)
     Clear();
 }
 
+WriteLine("Press enter to close");
+ReadLine();
+
