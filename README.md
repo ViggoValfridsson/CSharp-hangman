@@ -1,7 +1,7 @@
 # CSharp-hangman
 
 ## About
-Written in C# and uses API Ninjas to fetch random words! 
+Written in C# and fetches random words from API ninjas
 
 ## Download links
 - [Linux arm](https://github.com/ViggoValfridsson/CSharp-hangman/raw/main/Download/hangman-linux-arm)
